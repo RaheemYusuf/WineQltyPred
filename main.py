@@ -2,6 +2,7 @@ from src.wineqltypred import logger
 from src.wineqltypred.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 from src.wineqltypred.pipeline.data_ingestion_pipeline import STAGE_NAME
 from src.wineqltypred.pipeline.data_validation_pipeline import run_data_validation_pipeline
+from src.wineqltypred.pipeline.data_transformation_pipeline import run_data_transformation_pipeline
 
 try:
     logger.info(f">>>>> stage {STAGE_NAME} started <<<<<<")
@@ -15,3 +16,6 @@ except Exception as e:
 
 #run data validation pipeline
 run_data_validation_pipeline()
+
+#run data transformation pipeline
+run_data_transformation_pipeline()
