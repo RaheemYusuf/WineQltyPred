@@ -7,7 +7,7 @@
 2. Data Validation
 3. Data Transformation
 4. Model Trainer
-5. Model Evaluation
+5. Model Evaluation -- MLFlow, Dagshub
 
 ## Workflows
 1. Update config.yaml  -- Data Ingestion
